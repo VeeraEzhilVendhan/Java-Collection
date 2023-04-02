@@ -1,4 +1,4 @@
-package coding.veera.List;
+package coding.veera.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
