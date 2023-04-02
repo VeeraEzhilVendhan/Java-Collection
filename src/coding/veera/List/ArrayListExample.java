@@ -9,7 +9,7 @@ public class ArrayListExample {
 	public static void main(String[] args)
 	{
 		
-		ArrayList<Integer> intArrList=new ArrayList<Integer>(10);
+		ArrayList<Integer> intArrList=new ArrayList<Integer>(2);
 		
 		intArrList.add(4);
 		intArrList.add(56);
@@ -51,6 +51,13 @@ public class ArrayListExample {
 		
 		System.out.println("Retaning ArrayList only with new ArrayList");
 		intArrList.retainAll(intArrListNew);
+		System.out.println(intArrList);
+		
+		System.out.println("Printing size of current ArrayList");
+		System.out.println(intArrList.size());
+		System.out.println("is this ArrayList empty "+intArrList.isEmpty());
+		System.out.println("Clearing ArrayList");
+		intArrList.clear();
 		System.out.println(intArrList);
 
 	}
