@@ -59,6 +59,19 @@ public class ArrayListExample {
 		System.out.println("Clearing ArrayList");
 		intArrList.clear();
 		System.out.println(intArrList);
+		
+		//UserDefined list
+		ArrayList<Bike> bikeList=new ArrayList<Bike>();
+		Bike bike1=new Bike(1,"Hero",66.5d);
+		Bike bike2=new Bike(1,"Honda",67.1d);
+		Bike bike3=new Bike(1,"Royal Enfield",30);
+		Bike bike4=new Bike(1,"Harley Davidson",20.8d);
+		bikeList.add(bike1);
+		bikeList.add(bike2);
+		bikeList.add(bike3);
+		bikeList.add(bike4);
+		System.out.println("UserDefined ArrayList (Bike)");
+		System.out.println(bikeList);
 
 	}
 
