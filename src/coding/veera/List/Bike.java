@@ -13,6 +13,9 @@ public class Bike {
 	}
 
 	public void setModel(int model) {
+		
+
+	
 		this.model = model;
 	}
 
@@ -32,7 +35,8 @@ public class Bike {
 		this.milage = milage;
 	}
 
-	public Bike(int model, String manufacturer, double milage) {
+	public Bike(int model, String manufacturer, double milage) 
+		
 		super();
 		this.model = model;
 		this.manufacturer = manufacturer;
